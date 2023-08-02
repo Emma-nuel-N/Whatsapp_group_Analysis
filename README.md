@@ -2,6 +2,7 @@
 This repository contains a Python script for analyzing WhatsApp group chat messages. The script extracts data from a WhatsApp chat text file, performs various analyses, and visualizes the results using popular Python libraries. The following analyses are performed:
 
 ### Data Preprocessing:
+
 The script reads the WhatsApp chat data from the specified file, processes it to extract user messages and timestamps, and organizes the data into a pandas DataFrame.
 
 ### Anonymization:
