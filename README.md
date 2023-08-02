@@ -1,28 +1,37 @@
 # Whatsapp_group_Analysis
 This repository contains a Python script for analyzing WhatsApp group chat messages. The script extracts data from a WhatsApp chat text file, performs various analyses, and visualizes the results using popular Python libraries. The following analyses are performed:
 
-### Data Preprocessing: The script reads the WhatsApp chat data from the specified file, processes it to extract user messages and timestamps, and organizes the data into a pandas DataFrame.
+### Data Preprocessing:
+The script reads the WhatsApp chat data from the specified file, processes it to extract user messages and timestamps, and organizes the data into a pandas DataFrame.
 
-### Anonymization: To protect the privacy of the group members, the script anonymizes the usernames by assigning them unique identifiers.
+### Anonymization:
+To protect the privacy of the group members, the script anonymizes the usernames by assigning them unique identifiers.
 
-### Data Cleaning: The script removes <Media omitted> messages and group notifications from the DataFrame.
+### Data Cleaning:
+The script removes <Media omitted> messages and group notifications from the DataFrame.
 
-### Most Active Users: It identifies the most active users in the group based on the number of messages they have sent.
+### Most Active Users:
+It identifies the most active users in the group based on the number of messages they have sent.
 
-### Frequently Used Emojis: The script counts and displays the most frequently used emojis in the group messages.
+### Frequently Used Emojis:
+The script counts and displays the most frequently used emojis in the group messages.
 
-### Sleep Cycle/Active Periods: The script visualizes the distribution of messages per hour to identify the sleep cycle and active periods of the group.
+### Sleep Cycle/Active Periods:
+The script visualizes the distribution of messages per hour to identify the sleep cycle and active periods of the group.
 
-### Word Cloud: A word cloud is generated from the group messages to visualize the most common words used in the chat.
+### Word Cloud:
+A word cloud is generated from the group messages to visualize the most common words used in the chat.
 
-### Sentiment Analysis: The script calculates the average sentiment score of the group messages using the VADER sentiment analysis tool.
+### Sentiment Analysis:
+The script calculates the average sentiment score of the group messages using the VADER sentiment analysis tool.
 
-### Most Active Users by Number of Days Active: It identifies the users who have been active on the most number of different days in the group.
+### Most Active Users by Number of Days Active:
+It identifies the users who have been active on the most number of different days in the group.
 
 ## How to Use
 Requirements: Make sure you have Python installed on your system along with the required libraries mentioned in the requirements.txt file.
 
- Data Input: Place your WhatsApp chat text file in the same directory as the script and specify its file name in the file_location variable at the beginning of the script.
+Data Input: Place your WhatsApp chat text file in the same directory as the script and specify its file name in the file_location variable at the beginning of the script.
 
 Run the Script: Execute the script, and it will perform all the analyses on the WhatsApp chat data.
 
